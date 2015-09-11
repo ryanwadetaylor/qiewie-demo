@@ -1,0 +1,91 @@
+.nav {
+	border-bottom: 1px solid grey;
+}
+
+.nav > div img{
+	height: 50px;
+}
+
+.side-nav {
+	min-height: 600px;
+	width: 60px;
+	border-right: 1px solid grey;
+	float: left;
+}
+
+.side-nav .fa {
+	font-size: 40px;
+	padding: 10px;
+	color: black;
+	vertical-align: middle;
+}
+
+.admin-container {
+	margin-top: 10px;
+	margin-left: 80px;
+	padding: 30px;
+}
+
+#loggedInGauge {
+	width: 380px;
+	height: 380px;
+	background-color: yellow;
+	float: left;
+	border-radius: 50%
+}
+
+#map {
+	background-color: blue;
+	width: 610px;
+	height: 380px;
+	margin-left: 560px;
+}
+
+.mid-container {
+	margin-top: 20px;
+}
+
+.mid-container > div {
+	display: inline-block;
+	width: 360px;
+	background-color: grey;
+	margin: 2px;
+	padding: 10px;
+}
+
+.mid-container h2 {
+	font-family: Tahoma;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+	margin-top: 2px;
+}
+
+.bottom-container {
+	margin-top: 20px;
+}
+
+.bottom-container > div {
+	display: inline-block;
+	width: 360px;
+	min-height: 220px;
+	background-color: grey;
+	margin: 14px;
+	border: 1px solid grey;
+}
+
+.bottom-container h2 {
+	font-family: Tahoma;
+	text-align: center;
+	background-color: white;
+	color: black;
+	margin: 0;
+	margin-bottom: 50px;
+}
+
+.data-num {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Admin | Qiewie</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+	<header class="nav">
+		<div>
+			
+			<a id="logo" href="#"><img src="Qiewie-horizontal-logo-color.svg" alt=""></a>
+		</div>
+	</header>
+
+	<nav class="side-nav">
+		<a href="#"><i class="fa fa-globe"></i></a>
+		<a href="#"><i class="fa fa-comments-o"></i></a>
+		<a href="#"><i class="fa fa-money"></i></a>
+		<a href="#"><i class="fa fa-eye"></i></a>
+		<a href="#"><i class="fa fa-database"></i></a>
+	</nav>
+	
+	<div class="admin-container">
+		<div class="top-container">
+			<div id="loggedInGauge">
+				<!-- gauge here -->
+			</div> 	
+			<div id="map">
+				<!-- map here -->
+			</div>
+		</div>
+
+		<div class="mid-container">
+			<div id="tweets">
+				<h2>Quiwie Tweets</h2>
+				<div class="data-num" id="tweets-data"></div>
+			</div> 
+
+			<div id="likes">
+				<h2>Facebook likes</h2>
+				<div class="data-num" id="facebook-data"></div>
+			</div> 
+
+			<div id="new-users">
+				<h2>New users in last 7 days</h2>
+				<div class="data-num" id="new-users-data"></div>
+			</div>
+			
+		</div>
+
+		<div class="bottom-container">
+			<div id="new-users">
+				<h2>Premium Subsciptions Sold</h2>
+				<div class="data-num" id="premium-data"></div>
+			</div>
+
+			<div id="new-users">
+				<h2>Corporate Subsciptions Sold</h2>
+				<div class="data-num" id="corp-data"></div>
+			</div>
+
+			<div id="new-users">
+				<h2>Municipal Subsciptions Sold</h2>
+				<div class="data-num" id="muni-data"></div>
+			</div>
+			
+		</div>
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>	
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script src="raphael-2.1.4.min.js"></script>
+	<script src="justgage-1.1.0.min.js"></script>
+	<script src='main.js'></script>
+</body>
+</html>
